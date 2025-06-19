@@ -17,7 +17,7 @@
 ## 🎯 Executive Summary
 
 This research presents a **groundbreaking innovation** in YOLOv12 optimization: replacing Flash Attention with **PyTorch SDPA (Scaled Dot-Product Attention)** to achieve equivalent performance with **infinite simplicity**. Our empirical validation demonstrates **97.8% mAP@50** while eliminating all deployment complexities that have plagued Flash Attention implementations.
-![Labels Correlogram](https://github.com/kennedy-kitoko/kennedy-kitoko-pytorch-sdpa-yolo-agriculture/raw/main/labels_correlogram.jpg)
+![Labels Correlogram](https://github.com/kennedy-kitoko/kennedy-kitoko-pytorch-sdpa-yolo-agriculture/blob/main/Screenshot%202025-06-20%20010535.png)
 
 ### 🏆 Key Achievements
 - **Performance**: **97.8% mAP@50** (vs ~98.2% Flash Attention theoretical)
@@ -129,6 +129,7 @@ Epoch |  mAP@50  | mAP@50-95 | Loss  | Status
 82    |  98.0%   |   79.1%   | 0.85  | 🏆 PEAK
 100   |  97.8%   |   79.5%   | 0.75  | ⭐ FINAL
 ```
+![Labels Correlogram](https://github.com/kennedy-kitoko/kennedy-kitoko-pytorch-sdpa-yolo-agriculture/blob/main/Screenshot%202025-06-20%20010535.png)
 
 ### Real-World Performance
 - **Training Time**: 2.84 hours (100 epochs)
