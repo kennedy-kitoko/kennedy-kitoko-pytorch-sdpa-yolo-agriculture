@@ -8,6 +8,25 @@
 [![mAP@50](https://img.shields.io/badge/mAP@50-97.8%25-gold.svg)](results/)
 [![Innovation](https://img.shields.io/badge/Innovation-SDPA_Validated-red.svg)](docs/)
 
+[![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://python.org)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.3+-orange.svg)](https://pytorch.org)
+[![CUDA](https://img.shields.io/badge/CUDA-12.1+-green.svg)](https://developer.nvidia.com/cuda-toolkit)
+[![Ultralytics](https://img.shields.io/badge/Ultralytics-8.3+-purple.svg)](https://ultralytics.com)
+[![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)](LICENSE)
+[![mAP@50](https://img.shields.io/badge/mAP@50-97.8%25-gold.svg)](results/)
+[![Innovation](https://img.shields.io/badge/Innovation-SDPA_Validated-red.svg)](docs/innovation_sdpa.md)
+[![Africa](https://img.shields.io/badge/Impact-Africa_Agriculture-darkgreen.svg)](docs/impact_societal.md)
+
+[![Roboflow](https://img.shields.io/badge/Dataset-Roboflow-blue.svg)](https://roboflow.com)
+[![Claude](https://img.shields.io/badge/AI_Assistant-Claude-lightblue.svg)](https://claude.ai)
+[![ChatGPT](https://img.shields.io/badge/Research-ChatGPT-green.svg)](https://chat.openai.com)
+[![Kaggle](https://img.shields.io/badge/Platform-Kaggle-20BEFF.svg)](https://kaggle.com)
+[![Perplexity](https://img.shields.io/badge/Research-Perplexity-purple.svg)](https://perplexity.ai)
+[![GitHub](https://img.shields.io/badge/Code-GitHub-black.svg)](https://github.com)
+[![Jupyter](https://img.shields.io/badge/Notebooks-Jupyter-orange.svg)](https://jupyter.org)
+[![WSL2](https://img.shields.io/badge/Environment-WSL2-darkblue.svg)](https://docs.microsoft.com/en-us/windows/wsl/)
+
+
 > **🌍 Innovation by Kennedy Kitoko Muyunga 🇨🇩** - Congolese AI Student  
 > *Democratizing AI Agriculture through Native PyTorch SDPA - Simplicity that Revolutionizes*
 
