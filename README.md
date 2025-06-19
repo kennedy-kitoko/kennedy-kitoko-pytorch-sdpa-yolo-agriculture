@@ -390,7 +390,7 @@ This innovation directly benefits the Ultralytics ecosystem by:
 ### Contribution Guidelines
 ```bash
 # Fork and contribute
-git fork https://github.com/KennedyKitoko/SDPA-YOLO12-SmartFarm.git
+git fork https://github.com/kennedy-kitoko/kennedy-kitoko-pytorch-sdpa-yolo-agriculture
 git clone [your-fork-url]
 git checkout -b feature/your-enhancement
 
@@ -486,7 +486,7 @@ def efficient_attention(q, k, v):
 ### Principal Researcher
 **🇨🇩 Kennedy Kitoko Muyunga**
 - **Institution**: Beijing Institute of Technology (北京理工大学)
-- **Specialty**: Mechatronics Engineering & Artificial Intelligence
+- **Specialty**: Mechatronics Engineering
 - **Focus**: Agricultural AI & Computer Vision
 - **Age**: 21 years
 - **Languages**: English, French, Mandarin, Lingala
