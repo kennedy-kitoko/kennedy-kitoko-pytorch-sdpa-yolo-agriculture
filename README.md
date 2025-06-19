@@ -19,9 +19,10 @@
 This research presents a **groundbreaking innovation** in YOLOv12 optimization: replacing Flash Attention with **PyTorch SDPA (Scaled Dot-Product Attention)** to achieve equivalent performance with **infinite simplicity**. Our empirical validation demonstrates **97.8% mAP@50** while eliminating all deployment complexities that have plagued Flash Attention implementations.
 
 
-
+![Labels Correlogram](https://github.com/kennedy-kitoko/kennedy-kitoko-pytorch-sdpa-yolo-agriculture/blob/main/site.png)
 
 ![Labels Correlogram](https://github.com/kennedy-kitoko/kennedy-kitoko-pytorch-sdpa-yolo-agriculture/blob/main/image.png)
+
 ![Labels Correlogram](https://github.com/kennedy-kitoko/kennedy-kitoko-pytorch-sdpa-yolo-agriculture/blob/main/Screenshot%202025-06-20%20025251.png)
 
 
@@ -285,7 +286,32 @@ We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ---
 
-## 🏆 Awards & Recognition
+## 🏆 Awards & Recognition 
+
+
+
+![Labels Correlogram](https://github.com/kennedy-kitoko/kennedy-kitoko-pytorch-sdpa-yolo-agriculture/blob/main/competition.png)
+
+
+
+![Labels Correlogram](https://github.com/kennedy-kitoko/kennedy-kitoko-pytorch-sdpa-yolo-agriculture/blob/main/depot%20du%202.png)
+
+
+##Ministry of Education, the United Front Work Department of CPC Central Committee,
+Office of the Central Cyberspace Affairs Commission, National Development and Reform Commission,
+Ministry of Industry and Information Technology, Ministry of Human Resources and Social Securty
+Ministry of Agriculture and Rural Affairs, Chinese Academy of Sciences, Chinese Academy of Engineering,
+National Intellectual Property Administration, Central Committee of the Communist Youth League,
+the People's Government of Henan Province
+
+Organizers: Zhengzhou University, the Zhengzhou Municipal People's Government
+
+![Labels Correlogram](https://github.com/kennedy-kitoko/kennedy-kitoko-pytorch-sdpa-yolo-agriculture/blob/main/liste.png)
+
+China International College Students' Innovation Competition 2025
+
+Hosts:
+## China International College Students' Innovation Competition 2025
 
 - 🥇 **Innovation Award** - Agricultural AI Summit 2025
 - 📚 **Best Paper** - Computer Vision for Agriculture Workshop
@@ -319,7 +345,7 @@ If you use this work in your research, please cite:
 
 **Kennedy Kitoko** 🇨🇩
 - 📧 Email: kitokokennedy13@gmail.com
-- 🔗 LinkedIn: [Kennedy Kitoko](https://linkedin.com/in/kennedy-kitoko)
+- 🔗 X: @Kennedykitoko13
 - 🌐 Portfolio: [kennedy-kitoko.com](https://kennedy-kitoko.com)
 - 🏫 Institution: Beijing Institute of Technology
 
@@ -327,8 +353,7 @@ If you use this work in your research, please cite:
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
+![Labels Correlogram](https://github.com/kennedy-kitoko/kennedy-kitoko-pytorch-sdpa-yolo-agriculture/blob/main/ultralityc.png)
 ---
 
 ## 🙏 Acknowledgments
@@ -348,6 +373,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **🌍 Democratizing AI for Global Agriculture 🌍**
 
-*Made with ❤️ by Kennedy Kitoko - Empowering farmers worldwide through accessible AI*
+*Made with ❤️ by Kennedy Kitoko muyunga - Empowering farmers worldwide through accessible AI*
 
 </div>
