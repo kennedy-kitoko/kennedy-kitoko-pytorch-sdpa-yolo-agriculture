@@ -1,6 +1,6 @@
 ## 🗂️ Complete Project Structure
 
-```
+
 SDPA-YOLO12-SmartFarm/
 ├── README.md                       # This documentation
 └── SDPA-YOLO12-SmartFarm/         # Main project folder
