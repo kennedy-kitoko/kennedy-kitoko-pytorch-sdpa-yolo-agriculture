@@ -417,11 +417,11 @@ If you use this innovation in your research, please cite:
 ```bibtex
 @misc{kitoko2025sdpa,
   title={SDPA-YOLO12: PyTorch SDPA as Superior Alternative to Flash Attention for Agricultural AI},
-  author={Kennedy Kitoko Muyunga},
+  author={Kitoko Muyunga Kennedy },
   year={2025},
   institution={Beijing Institute of Technology},
   note={Empirically validated: 97.8\% mAP@50, 100\% deployment success},
-  url={https://github.com/KennedyKitoko/SDPA-YOLO12-SmartFarm}
+  url={https://github.com/kennedy-kitoko/kennedy-kitoko-pytorch-sdpa-yolo-agriculture.git}
 }
 ```
 
@@ -432,26 +432,6 @@ If you use this innovation in your research, please cite:
 - **Agricultural AI democratization** through technical barrier removal
 
 ---
-
-## 🚀 Future Roadmap
-
-### Short-term (3-6 months)
-- [ ] **YOLOv11/v10 Integration** - Extend SDPA to other YOLO versions
-- [ ] **Mobile Optimization** - Android/iOS deployment
-- [ ] **Performance Benchmarks** - Comprehensive comparisons
-- [ ] **Community Integration** - Ultralytics ecosystem contribution
-
-### Medium-term (6-12 months)
-- [ ] **Generic Framework** - SDPA for all vision models
-- [ ] **Industrial Partnerships** - Real-world deployment validation
-- [ ] **Research Publication** - Peer-reviewed paper submission
-- [ ] **Developer Training** - Community workshops and tutorials
-
-### Long-term (1-2 years)
-- [ ] **Industry Standard** - SDPA as default attention mechanism
-- [ ] **Global Impact** - Agricultural AI transformation in developing countries
-- [ ] **Advanced Research** - Hardware-specific optimizations
-- [ ] **Ecosystem Evolution** - Complete SDPA-based vision stack
 
 ---
 
