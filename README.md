@@ -104,10 +104,9 @@ pip install ultralytics torch torchvision numpy pillow matplotlib psutil
 ### 2. Train with SDPA Innovation
 ```bash
 # Automatic configuration with SDPA optimization
-python src/train_sdpa.py
+python train_yolo_launch_ready.py
 
-# Custom training
-python src/train_sdpa.py --epochs 100 --batch 8 --data your_dataset.yaml
+
 ```
 
 ### 3. Run Inference
@@ -119,7 +118,7 @@ python src/inference.py --image path/to/image.jpg
 python src/inference.py --input_dir images/ --output_dir results/
 
 # Real-time video
-python src/inference.py --video path/to/video.mp4 --show
+
 ```
 
 ---
