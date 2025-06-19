@@ -1,44 +1,26 @@
-# kennedy-kitoko-pytorch-sdpa-yolo-agriculture
+# 🚀 SDPA-YOLO12-AGRO-AI: PyTorch SDPA as Flash Attention Alternative
 
-# 🚀 SDPA-YOLO12: PyTorch SDPA as Flash Attention Alternative
+[![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://python.org)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.3+-orange.svg)](https://pytorch.org)
+[![CUDA](https://img.shields.io/badge/CUDA-12.1+-green.svg)](https://developer.nvidia.com/cuda-toolkit)
+[![Ultralytics](https://img.shields.io/badge/Ultralytics-8.3+-purple.svg)](https://ultralytics.com)
+[![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)](LICENSE)
+[![mAP@50](https://img.shields.io/badge/mAP@50-97.8%25-gold.svg)](results/)
+[![Innovation](https://img.shields.io/badge/Innovation-SDPA_Validated-red.svg)](docs/innovation_sdpa.md)
+[![Africa](https://img.shields.io/badge/Impact-Africa_Agriculture-darkgreen.svg)](docs/impact_societal.md)
 
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-orange.svg)](https://pytorch.org)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Paper](https://img.shields.io/badge/Paper-ArXiv-red.svg)](https://arxiv.org/abs/YOUR_PAPER)
+[![Roboflow](https://img.shields.io/badge/Dataset-Roboflow-blue.svg)](https://roboflow.com)
+[![Claude](https://img.shields.io/badge/AI_Assistant-Claude-lightblue.svg)](https://claude.ai)
+[![ChatGPT](https://img.shields.io/badge/Research-ChatGPT-green.svg)](https://chat.openai.com)
+[![Kaggle](https://img.shields.io/badge/Platform-Kaggle-20BEFF.svg)](https://kaggle.com)
+[![Perplexity](https://img.shields.io/badge/Research-Perplexity-purple.svg)](https://perplexity.ai)
+[![GitHub](https://img.shields.io/badge/Code-GitHub-black.svg)](https://github.com)
+[![Jupyter](https://img.shields.io/badge/Notebooks-Jupyter-orange.svg)](https://jupyter.org)
+[![WSL2](https://img.shields.io/badge/Environment-WSL2-darkblue.svg)](https://docs.microsoft.com/en-us/windows/wsl/)
 
-> **🇨🇩 Innovation by Kennedy Kitoko** - Congolese AI Student  
-> Simplifying AI Agriculture through Native PyTorch SDPA
+> **🇨🇩 Innovation by Kennedy Kitoko Muyunga** - Congolese AI Student at Beijing Institute of Technology  
+> *Democratizing AI Agriculture through Native PyTorch SDPA - Simplicity that Revolutionizes*
 
-## 🎯 **Key Innovation**
-
-This repository presents **PyTorch SDPA** as a simplified, high-performance alternative to Flash Attention for YOLO12 models, specifically optimized for agricultural AI applications.
-
-### 🏆 **Results Summary**
-- **mAP@50**: 97.8% (vs 98.2% Flash Attention)
-- **Setup Time**: 0 minutes (vs 30-60 min Flash Attention)
-- **Dependencies**: 0 external (vs multiple complex for FA)
-- **Compatibility**: Universal PyTorch 2.0+ (vs CUDA-specific)
-
-## 🚀 **Quick Start**
-
-```bash
-# Clone repository
-git clone https://github.com/KennedyKitoko/SDPA-YOLO12-SmartFarm
-cd SDPA-YOLO12-SmartFarm
-
-# Install dependencies (30 seconds)
-pip install -r requirements.txt
-
-# Run demo inference
-python scripts/demo_inference.py --image data/sample_images/weed_sample_1.jpg
-
-# Train your model
-python src/train_sdpa.py --config configs/yolo12n_sdpa.yaml
-
-
-
-# 🌾 SDPA-YOLO12-AGRO-AI
 ## Scientifically Validated Innovation - Smart Agriculture
 
 **Researcher:** Kennedy Kitoko Muyunga 🇨🇩  
