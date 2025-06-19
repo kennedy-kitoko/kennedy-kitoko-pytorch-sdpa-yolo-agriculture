@@ -1,4 +1,31 @@
-# 🚀 SDPA-YOLO12-AGRO-AI: PyTorch SDPA as Flash Attention Alternative
+## 🗂️ Complete Project Structure
+
+```
+SDPA-YOLO12-SmartFarm/
+├── README.md                       # This documentation
+└── SDPA-YOLO12-SmartFarm/         # Main project folder
+    ├── configs/                    # Intelligent configurations
+    │   ├── environment_sdpa.yml   # Optimized environment
+    │   ├── data/                  # Dataset configurations
+    │   ├── experiments/           # Experimental configs
+    │   └── yolo/                  # YOLO configurations
+    ├── data/                      # Datasets and annotations
+    │   ├── annotations/           # YOLO format annotations
+    │   ├── sample_images/         # Sample images
+    │   ├── weeds_dataset.yaml     # Weeds dataset config
+    │   └── fixed_dataset.yaml     # Fixed dataset config
+    ├── docs/                      # Scientific documentation
+    │   ├── training_guide.md      # Complete training guide
+    │   ├── modifications.md       # Project modifications
+    │   ├── images/                # Documentation images
+    │   ├── flash_attention_issues.md # Flash Attention problems
+    │   ├── pip_packages_full.txt  # Complete pip packages
+    │   ├── conda_packages_full.txt # Complete conda packages
+    │   ├── current_requirements_backup.txt
+    │   ├── current_environment_backup.yml
+    │   ├── document_final.txt     # Final documentation
+    │   ├── entrainement.txt       # Training guide (French)
+    │   ├── erreur_solution.txt    # 🚀 SDPA-YOLO12-AGRO-AI: PyTorch SDPA as Flash Attention Alternative
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://python.org)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.3+-orange.svg)](https://pytorch.org)
@@ -25,7 +52,7 @@
 
 **Researcher:** Kennedy Kitoko Muyunga 🇨🇩  
 **Institution:** Beijing Institute of Technology (BIT University)  
-**Specialty:** Mechatronics Engineering   
+**Specialty:** Mechatronics Engineering & Artificial Intelligence  
 **Innovation:** PyTorch SDPA as Superior Alternative to Flash Attention  
 
 ---
@@ -81,17 +108,17 @@ cd SDPA-YOLO12-SmartFarm/SDPA-YOLO12-SmartFarm
 pip install ultralytics torch numpy pillow pyyaml matplotlib opencv-python psutil
 
 # Verify SDPA innovation
-python src/train_sdpa.py --verify
+python SDPA-YOLO12-SmartFarm/src/train_sdpa.py --verify
 ```
 
 ### Advanced Configuration (Optional)
 ```bash
 # Create optimized conda environment
-conda env create -f configs/environment_sdpa.yml
+conda env create -f SDPA-YOLO12-SmartFarm/configs/environment_sdpa.yml
 conda activate sdpa-yolo
 
 # Complete system test
-python src/system_validation.py --full-test
+python SDPA-YOLO12-SmartFarm/src/system_validation.py --full-test
 ```
 
 ---
@@ -101,34 +128,34 @@ python src/system_validation.py --full-test
 ### Intelligent Training
 ```bash
 # Standard training with SDPA
-python src/train_sdpa.py
+python SDPA-YOLO12-SmartFarm/src/train_sdpa.py
 
 # Adaptive custom configuration
-python src/train_sdpa.py --config configs/yolo/base_config.yaml --auto-adapt
+python SDPA-YOLO12-SmartFarm/src/train_sdpa.py --config SDPA-YOLO12-SmartFarm/configs/yolo/base_config.yaml --auto-adapt
 
 # Expert mode with monitoring
-python src/train_sdpa.py --epochs 100 --batch auto --workers auto --monitor
+python SDPA-YOLO12-SmartFarm/src/train_sdpa.py --epochs 100 --batch auto --workers auto --monitor
 ```
 
 ### Real-time Inference
 ```bash
 # Single image detection
-python src/inference.py --image path/to/field.jpg --output results/
+python SDPA-YOLO12-SmartFarm/src/inference.py --image path/to/field.jpg --output results/
 
 # Drone video processing
-python src/inference.py --video path/to/field_video.mp4 --realtime
+python SDPA-YOLO12-SmartFarm/src/inference.py --video path/to/field_video.mp4 --realtime
 
 # Optimized batch processing
-python src/inference.py --input_dir images/ --output_dir results/ --batch 8
+python SDPA-YOLO12-SmartFarm/src/inference.py --input_dir images/ --output_dir results/ --batch 8
 ```
 
 ### Production Deployment
 ```bash
 # REST API for integration
-python src/api_server.py --host 0.0.0.0 --port 8080
+python SDPA-YOLO12-SmartFarm/src/api_server.py --host 0.0.0.0 --port 8080
 
 # Real-time service
-python src/realtime_service.py --camera 0 --threshold 0.65
+python SDPA-YOLO12-SmartFarm/src/realtime_service.py --camera 0 --threshold 0.65
 ```
 
 ---
@@ -191,71 +218,59 @@ Epoch 100: mAP@50 = 97.8% → Final result
 ## 🗂️ Actual Project Structure
 
 ```
-SDPA-YOLO12-SmartFarm/
-├── SDPA-YOLO12-SmartFarm/           # Main project folder
-│   ├── configs/                     # Intelligent configurations
-│   │   ├── environment_sdpa.yml    # Optimized environment
-│   │   ├── data/                   # Dataset configurations
-│   │   ├── experiments/            # Experimental configs
-│   │   └── yolo/                   # YOLO configurations
-│   ├── data/                       # Datasets and annotations
-│   │   ├── annotations/            # YOLO format annotations
-│   │   ├── fixed_dataset.yaml      # Fixed dataset config
-│   │   ├── sample_images/          # Sample images
-│   │   └── weeds_dataset.yaml      # Weeds dataset config
-│   ├── docs/                       # Scientific documentation
-│   │   ├── conda_packages_full.txt # Complete conda packages
-│   │   ├── current_environment_backup.yml
-│   │   ├── current_requirements_backup.txt
-│   │   ├── document_final.txt      # Final documentation
-│   │   ├── entrainement.txt        # Training guide
-│   │   ├── erreur_solution.txt     # Error solutions
-│   │   ├── flash_attention_issues.md # Flash Attention problems
-│   │   ├── images/                 # Documentation images
-│   │   ├── pip_packages_full.txt   # Complete pip packages
-│   │   ├── resultat_attendu.txt    # Expected results
-│   │   └── yolo_monitoring_systeme.txt # Monitoring system
-│   ├── experiments/                # Experimental results
-│   │   ├── ablation_studies/       # Ablation studies
-│   │   ├── benchmark_results/      # Benchmark results
-│   │   └── sdpa_vs_flash_attention/ # SDPA vs Flash comparison
-│   ├── models/                     # Trained models
-│   │   ├── yolo12n_flash.pt       # Flash model
-│   │   ├── yolo12n_sdpa_best.pt   # Best SDPA model
-│   │   └── yolo12s_sdpa_best.pt   # SDPA small version
-│   ├── notebooks/                  # Jupyter notebooks
-│   │   └── analysis/               # Analysis notebooks
-│   ├── results/                    # Results and outputs
-│   │   └── publication_figures/    # Publication figures
-│   ├── scripts/                    # Utility scripts
-│   │   └── automation/             # Automation scripts
-│   ├── src/                        # Source code
-│   │   ├── flash/                 # Flash/SDPA implementations
-│   │   │   ├── final_sdpa_experiment.py
-│   │   │   ├── optimized_flash_experiment.py
-│   │   │   ├── pre_experiment_validation.py
-│   │   │   └── sdpa_only_experiment.py
-│   │   ├── inference.py           # Inference script
-│   │   ├── models/                # Model definitions
-│   │   ├── train_sdpa.py         # SDPA training
-│   │   ├── train_yolo.py         # YOLO training
-│   │   ├── utils/                 # Utilities
-│   │   │   ├── debug_yolo_fix.py
-│   │   │   └── system_monitor.py
-│   │   └── yolo_monitoring_system.py
-│   ├── tests/                      # Unit tests
-│   │   ├── test_flash_func.py
-│   │   ├── test_flash_validation.py
-│   │   └── test_flash.py
-│   └── tools/                      # Development tools
-│       ├── cuda-keyring_1.0-1_all.deb
-│       ├── custom_cleanup.py
-│       ├── flash_attention_local_setup.sh
-│       ├── flash_attn-2.7.3+cu11torch2.2cxx11abiFALSE-cp311-cp311-linux_x86_64.whl
-│       ├── flash-attention-main.zip
-│       └── recommended_cleanup.sh
-└── train_yolo_launch_ready/        # Ready-to-launch scripts
-    └── python train_yolo_fixed.txt
+    │   ├── erreur_solution.txt    # Error solutions
+    │   ├── resultat_attendu.txt   # Expected results
+    │   └── yolo_monitoring_systeme.txt # Monitoring system
+    ├── experiments/               # Experimental results
+    │   ├── sdpa_vs_flash_attention/ # SDPA vs Flash comparison
+    │   │   ├── flash_attention_resultat.txt
+    │   │   ├── runs_sdpa/         # SDPA experiment runs
+    │   │   ├── Weeds-3_flash_attention/ # Flash attention results
+    │   │   ├── performance_charts/ # Performance visualizations
+    │   │   ├── runs_flash_attention/ # Flash attention runs
+    │   │   └── Weeds-3_sdpa/      # SDPA results
+    │   ├── ablation_studies/      # Ablation studies
+    │   ├── benchmark_results/     # Benchmark results
+    │   └── system_report.json     # System performance report
+    ├── models/                    # Trained models
+    │   ├── yolo12s_sdpa_best.pt  # Best SDPA small model
+    │   ├── yolo12n_flash.pt      # Flash attention model
+    │   └── yolo12n_sdpa_best.pt  # Best SDPA nano model
+    ├── notebooks/                 # Jupyter notebooks
+    │   └── analysis/              # Analysis notebooks
+    ├── results/                   # Results and outputs
+    │   └── publication_figures/   # Publication-ready figures
+    ├── scripts/                   # Utility scripts
+    │   └── automation/            # Automation scripts
+    ├── src/                       # Source code
+    │   ├── inference.py          # Inference script
+    │   ├── train_sdpa.py         # SDPA training
+    │   ├── train_yolo.py         # YOLO training
+    │   ├── yolo_monitoring_system.py # Monitoring system
+    │   ├── flash/                # Flash/SDPA implementations
+    │   │   ├── final_sdpa_experiment.py
+    │   │   ├── sdpa_only_experiment.py
+    │   │   ├── optimized_flash_experiment.py
+    │   │   └── pre_experiment_validation.py
+    │   ├── utils/                # Utilities
+    │   │   ├── system_monitor.py
+    │   │   └── debug_yolo_fix.py
+    │   └── models/               # Model definitions (empty)
+    ├── tests/                    # Unit tests
+    │   ├── test_flash_validation.py
+    │   ├── test_flash_func.py
+    │   └── test_flash.py
+    ├── tools/                    # Development tools
+    │   ├── recommended_cleanup.sh
+    │   ├── custom_cleanup.py
+    │   ├── flash-attention-main.zip
+    │   ├── flash_attention_local_setup.sh
+    │   ├── flash_attn-2.7.3+cu11torch2.2cxx11abiFALSE-cp311-cp311-linux_x86_64.whl
+    │   └── cuda-keyring_1.0-1_all.deb
+    └── .github/                  # GitHub configurations
+        ├── ISSUE_TEMPLATE/       # Issue templates
+        └── workflows/            # CI/CD workflows
+```
 ```
 
 ---
@@ -345,10 +360,14 @@ Memory Stability:
 ### Facilitated Technology Transfer
 ```python
 # Edge Deployment (Jetson, Raspberry Pi, etc.)
-model = YOLO('smartfarm_sdpa_best.pt')
+model = YOLO('SDPA-YOLO12-SmartFarm/models/yolo12n_sdpa_best.pt')
 results = model.predict('field_image.jpg')
 # Performance: 131 FPS on RTX 4060
 # Compatible: All PyTorch systems
+
+# Alternative models available:
+# - SDPA-YOLO12-SmartFarm/models/yolo12s_sdpa_best.pt (Small version)
+# - SDPA-YOLO12-SmartFarm/models/yolo12n_flash.pt (Flash comparison)
 ```
 
 ---
@@ -386,36 +405,47 @@ results = model.predict('field_image.jpg')
 
 ### User Guides
 - [📖 Installation Guide](SDPA-YOLO12-SmartFarm/docs/installation.md) - Ultra-simplified setup
-- [🎓 Training Guide](SDPA-YOLO12-SmartFarm/docs/entrainement.txt) - Advanced optimizations
-- [⚡ Inference Guide](SDPA-YOLO12-SmartFarm/docs/inference_guide.md) - Real-time deployment
+- [🎓 Training Guide](SDPA-YOLO12-SmartFarm/docs/training_guide.md) - Complete training guide
+- [🎓 Training Guide (French)](SDPA-YOLO12-SmartFarm/docs/entrainement.txt) - Guide d'entraînement
 - [🔧 Troubleshooting](SDPA-YOLO12-SmartFarm/docs/erreur_solution.txt) - Common solutions
+- [📝 Modifications](SDPA-YOLO12-SmartFarm/docs/modifications.md) - Project modifications
 
 ### Scientific Documentation
-- [🔬 SDPA Innovation](SDPA-YOLO12-SmartFarm/docs/innovation_sdpa.md) - Technical principle
-- [📊 Empirical Validation](SDPA-YOLO12-SmartFarm/docs/document_final.txt) - Complete results
-- [🌍 Societal Impact](SDPA-YOLO12-SmartFarm/docs/impact_societal.md) - African applications
-- [📈 Benchmarks](SDPA-YOLO12-SmartFarm/docs/benchmark_results/) - Performance comparisons
+- [🔬 Final Documentation](SDPA-YOLO12-SmartFarm/docs/document_final.txt) - Complete research results
+- [📊 Expected Results](SDPA-YOLO12-SmartFarm/docs/resultat_attendu.txt) - Performance benchmarks
+- [🖥️ Monitoring System](SDPA-YOLO12-SmartFarm/docs/yolo_monitoring_systeme.txt) - System monitoring
 - [❌ Flash Attention Issues](SDPA-YOLO12-SmartFarm/docs/flash_attention_issues.md) - Documented problems
+
+### Environment Documentation
+- [📦 Conda Packages](SDPA-YOLO12-SmartFarm/docs/conda_packages_full.txt) - Complete conda environment
+- [📦 Pip Packages](SDPA-YOLO12-SmartFarm/docs/pip_packages_full.txt) - Complete pip requirements
+- [💾 Environment Backup](SDPA-YOLO12-SmartFarm/docs/current_environment_backup.yml) - Environment backup
+- [💾 Requirements Backup](SDPA-YOLO12-SmartFarm/docs/current_requirements_backup.txt) - Requirements backup
 
 ---
 
-## 🔬 Comparative Experiments
+## 🔬 Comprehensive Comparative Experiments
 
-The project includes comprehensive studies between SDPA and Flash Attention:
+The project includes extensive studies between SDPA and Flash Attention with **complete experimental documentation**:
 
-### Documented Flash Attention Problems
-- **Installation Complexity**: 60-180 minutes setup time
-- **Compilation Failures**: CUDA Toolkit dependencies
-- **Environment Conflicts**: Version incompatibilities
-- **Success Rate**: 0% in our validated environment
-- **Total Time Invested**: 420+ minutes without success
+### 📊 **SDPA vs Flash Attention Results**
+Located in: `SDPA-YOLO12-SmartFarm/experiments/sdpa_vs_flash_attention/`
 
-### SDPA Innovation Advantages
-- **Immediate Availability**: Native PyTorch integration
-- **Zero Configuration**: No external dependencies
-- **Universal Compatibility**: Works everywhere PyTorch works
-- **Guaranteed Success**: 100% deployment rate
-- **Performance**: 97.8% mAP@50 empirically validated
+- **Flash Attention Results**: [flash_attention_resultat.txt](SDPA-YOLO12-SmartFarm/experiments/sdpa_vs_flash_attention/flash_attention_resultat.txt)
+- **SDPA Experiment Runs**: [runs_sdpa/](SDPA-YOLO12-SmartFarm/experiments/sdpa_vs_flash_attention/runs_sdpa/)
+- **Flash Attention Runs**: [runs_flash_attention/](SDPA-YOLO12-SmartFarm/experiments/sdpa_vs_flash_attention/runs_flash_attention/)
+- **Performance Charts**: [performance_charts/](SDPA-YOLO12-SmartFarm/experiments/sdpa_vs_flash_attention/performance_charts/)
+- **Weeds-3 SDPA Results**: [Weeds-3_sdpa/](SDPA-YOLO12-SmartFarm/experiments/sdpa_vs_flash_attention/Weeds-3_sdpa/)
+- **Weeds-3 Flash Results**: [Weeds-3_flash_attention/](SDPA-YOLO12-SmartFarm/experiments/sdpa_vs_flash_attention/Weeds-3_flash_attention/)
+
+### 🧪 **Experiment Scripts**
+- [🔬 Final SDPA Experiment](SDPA-YOLO12-SmartFarm/src/flash/final_sdpa_experiment.py) - Complete validation
+- [⚡ SDPA Only Experiment](SDPA-YOLO12-SmartFarm/src/flash/sdpa_only_experiment.py) - Pure SDPA test
+- [🚀 Optimized Flash Experiment](SDPA-YOLO12-SmartFarm/src/flash/optimized_flash_experiment.py) - Flash attention test
+- [✅ Pre-experiment Validation](SDPA-YOLO12-SmartFarm/src/flash/pre_experiment_validation.py) - Environment validation
+
+### 📈 **System Performance Report**
+Complete system analysis: [system_report.json](SDPA-YOLO12-SmartFarm/experiments/system_report.json)
 
 ---
 
@@ -433,7 +463,7 @@ git clone [your-fork-url]
 git checkout -b feature/your-improvement
 
 # Tests before contribution
-python tests/run_all_tests.py
+python SDPA-YOLO12-SmartFarm/tests/run_all_tests.py
 
 # Pull request with documentation
 ```
