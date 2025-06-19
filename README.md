@@ -159,44 +159,7 @@ Epoch |  mAP@50  | mAP@50-95 | Loss  | Status
 ## 🏗️ Project Structure
 
 ```
-SDPA-YOLOv12/
-├── README.md                     # This file
-├── LICENSE                       # MIT License
-├── requirements.txt              # Simple dependencies
-├── setup.py                      # Package setup
-│
-├── src/                          # Source code
-│   ├── train_sdpa.py            # Main training script
-│   ├── inference.py             # Inference utilities
-│   ├── models/                  # Model architectures
-│   ├── utils/                   # Helper functions
-│   └── config/                  # Configuration files
-│
-├── data/                        # Dataset management
-│   ├── weeds_dataset.yaml       # Dataset configuration
-│   └── sample_images/           # Example images
-│
-├── experiments/                 # Research experiments
-│   ├── sdpa_benchmarks/         # Performance tests
-│   └── ablation_studies/        # Component analysis
-│
-├── models/                      # Trained models
-│   ├── yolo12n_sdpa_best.pt    # Best SDPA model
-│   └── checkpoints/             # Training checkpoints
-│
-├── results/                     # Training results
-│   ├── metrics/                 # Performance metrics
-│   └── visualizations/          # Graphs and plots
-│
-├── docs/                        # Documentation
-│   ├── installation.md          # Setup guide
-│   ├── training_guide.md        # Training tutorial
-│   ├── api_reference.md         # API documentation
-│   └── troubleshooting.md       # Common issues
-│
-└── tests/                       # Unit tests
-    ├── test_sdpa.py            # SDPA validation
-    └── test_performance.py      # Benchmark tests
+
 ```
 
 ---
@@ -263,11 +226,6 @@ Africa          | 18%           | 89%           | +394% 🏆
 Global Average  | 45%           | 91%           | +102%
 ```
 
-### Economic Impact (3-year projection)
-- **Setup Costs**: $0 vs $2,400 per team
-- **Maintenance**: $0 vs $1,200/year
-- **Training Time**: Immediate vs 1-2 months
-- **ROI**: 1,847% vs 127%
 
 ---
 
@@ -346,10 +304,6 @@ If you use this work in your research, please cite:
 
 ## 🔗 Links & Resources
 
-- 📺 [Video Tutorial](https://youtube.com/watch?v=demo) - Complete walkthrough
-- 💬 [Discord Community](https://discord.gg/sdpa-yolo) - Get help and share
-- 🐦 [Twitter Updates](https://twitter.com/sdpa_yolo) - Latest news
-- 📧 [Mailing List](https://sdpa-yolo.com/newsletter) - Research updates
 
 ---
 
