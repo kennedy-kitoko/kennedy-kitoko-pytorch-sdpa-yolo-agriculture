@@ -1,0 +1,388 @@
+{
+    "timestamp": "2025-06-19T01:51:09.544181",
+    "environment": "WSL d\u00e9tect\u00e9",
+    "cpu": {
+        "model": "x86_64",
+        "cores_physical": 6,
+        "cores_logical": 12,
+        "frequency": [
+            2495.2550000000006,
+            0.0,
+            0.0
+        ],
+        "usage_percent": 0.0,
+        "temperature": "N/A"
+    },
+    "memory": {
+        "total": 39.174949645996094,
+        "available": 38.08015441894531,
+        "used": 0.6799812316894531,
+        "percent": 2.8,
+        "swap_total": 8.0,
+        "swap_used": 0.0,
+        "swap_percent": 0.0
+    },
+    "gpu": {
+        "available": true,
+        "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+        "memory_total": 7.99560546875,
+        "memory_used": 0.0,
+        "memory_free": 7.99560546875,
+        "temperature": "49\u00b0C",
+        "utilization": "2%"
+    },
+    "disk": {
+        "total": 1006.853931427002,
+        "used": 70.29518508911133,
+        "free": 885.3431243896484,
+        "percent": 6.9816666444836555
+    },
+    "network": {
+        "bytes_sent": 0.01643848419189453,
+        "bytes_recv": 0.05609703063964844,
+        "packets_sent": 129,
+        "packets_recv": 204
+    },
+    "yolo_requirements": {
+        "torch_version": "2.3.1",
+        "torch_cuda": true,
+        "torch_cudnn": true,
+        "recommended_memory": 8.0,
+        "recommended_vram": 6.0,
+        "python_version": "3.11.13"
+    },
+    "recommendations": [
+        "\u2705 RAM excellente (16GB+) - Configuration optimale",
+        "\u2705 VRAM bonne (6GB+) - Configuration optimale"
+    ],
+    "suggested_config": {
+        "batch_size": 16,
+        "workers": 8,
+        "cache": "ram",
+        "mixed_precision": true
+    },
+    "top_cpu_processes": [
+        {
+            "pid": 1,
+            "cpu_percent": 0.0,
+            "memory_info": [
+                13410304,
+                22249472,
+                9961472,
+                45056,
+                0,
+                2904064,
+                0
+            ],
+            "memory_percent": 0.03188088041086412,
+            "name": "systemd",
+            "memory_mb": 12.7890625
+        },
+        {
+            "pid": 2,
+            "cpu_percent": 0.0,
+            "memory_info": [
+                1548288,
+                2678784,
+                1417216,
+                1519616,
+                0,
+                466944,
+                0
+            ],
+            "memory_percent": 0.0036808102612421,
+            "name": "init-systemd(Ub",
+            "memory_mb": 1.4765625
+        },
+        {
+            "pid": 7,
+            "cpu_percent": 0.0,
+            "memory_info": [
+                135168,
+                2678784,
+                135168,
+                1519616,
+                0,
+                466944,
+                0
+            ],
+            "memory_percent": 0.0003213405783624056,
+            "name": "init",
+            "memory_mb": 0.12890625
+        },
+        {
+            "pid": 52,
+            "cpu_percent": 0.0,
+            "memory_info": [
+                17690624,
+                68423680,
+                16465920,
+                114688,
+                0,
+                26013696,
+                0
+            ],
+            "memory_percent": 0.04205666539234029,
+            "name": "systemd-journald",
+            "memory_mb": 16.87109375
+        },
+        {
+            "pid": 94,
+            "cpu_percent": 0.0,
+            "memory_info": [
+                7036928,
+                25378816,
+                4952064,
+                864256,
+                0,
+                1667072,
+                0
+            ],
+            "memory_percent": 0.016729185261412507,
+            "name": "systemd-udevd",
+            "memory_mb": 6.7109375
+        },
+        {
+            "pid": 112,
+            "cpu_percent": 0.0,
+            "memory_info": [
+                2891776,
+                156741632,
+                540672,
+                20480,
+                0,
+                19681280,
+                0
+            ],
+            "memory_percent": 0.0068747408582987375,
+            "name": "snapfuse",
+            "memory_mb": 2.7578125
+        },
+        {
+            "pid": 113,
+            "cpu_percent": 0.0,
+            "memory_info": [
+                2252800,
+                156606464,
+                4096,
+                20480,
+                0,
+                19546112,
+                0
+            ],
+            "memory_percent": 0.005355676306040093,
+            "name": "snapfuse",
+            "memory_mb": 2.1484375
+        },
+        {
+            "pid": 122,
+            "cpu_percent": 0.0,
+            "memory_info": [
+                9605120,
+                386281472,
+                602112,
+                20480,
+                0,
+                55291904,
+                0
+            ],
+            "memory_percent": 0.022834656250298214,
+            "name": "snapfuse",
+            "memory_mb": 9.16015625
+        },
+        {
+            "pid": 123,
+            "cpu_percent": 0.0,
+            "memory_info": [
+                2306048,
+                156606464,
+                53248,
+                20480,
+                0,
+                19546112,
+                0
+            ],
+            "memory_percent": 0.005482265018728313,
+            "name": "snapfuse",
+            "memory_mb": 2.19921875
+        },
+        {
+            "pid": 131,
+            "cpu_percent": 0.0,
+            "memory_info": [
+                13926400,
+                386281472,
+                540672,
+                20480,
+                0,
+                59445248,
+                0
+            ],
+            "memory_percent": 0.03310781716461148,
+            "name": "snapfuse",
+            "memory_mb": 13.28125
+        }
+    ],
+    "top_memory_processes": [
+        {
+            "pid": 796,
+            "cpu_percent": 0.0,
+            "memory_info": [
+                378302464,
+                63436910592,
+                160030720,
+                2330624,
+                0,
+                427876352,
+                0
+            ],
+            "memory_percent": 0.8993543780901034,
+            "name": "pt_main_thread",
+            "memory_mb": 360.77734375
+        },
+        {
+            "pid": 240,
+            "cpu_percent": 0.0,
+            "memory_info": [
+                46505984,
+                2498334720,
+                23031808,
+                12210176,
+                0,
+                191225856,
+                0
+            ],
+            "memory_percent": 0.11056063414323493,
+            "name": "snapd",
+            "memory_mb": 44.3515625
+        },
+        {
+            "pid": 505,
+            "cpu_percent": 0.0,
+            "memory_info": [
+                37847040,
+                1974763520,
+                22392832,
+                15867904,
+                0,
+                125079552,
+                0
+            ],
+            "memory_percent": 0.08997536194147357,
+            "name": "ollama",
+            "memory_mb": 36.09375
+        },
+        {
+            "pid": 283,
+            "cpu_percent": 0.0,
+            "memory_info": [
+                22966272,
+                109584384,
+                13332480,
+                3026944,
+                0,
+                19533824,
+                0
+            ],
+            "memory_percent": 0.05459868554175782,
+            "name": "unattended-upgr",
+            "memory_mb": 21.90234375
+        },
+        {
+            "pid": 142,
+            "cpu_percent": 0.0,
+            "memory_info": [
+                19406848,
+                539398144,
+                401408,
+                20480,
+                0,
+                81264640,
+                0
+            ],
+            "memory_percent": 0.046136716978214476,
+            "name": "snapfuse",
+            "memory_mb": 18.5078125
+        },
+        {
+            "pid": 244,
+            "cpu_percent": 0.0,
+            "memory_info": [
+                18628608,
+                1797980160,
+                9801728,
+                5771264,
+                0,
+                101064704,
+                0
+            ],
+            "memory_percent": 0.044286574254309714,
+            "name": "wsl-pro-service",
+            "memory_mb": 17.765625
+        },
+        {
+            "pid": 52,
+            "cpu_percent": 0.0,
+            "memory_info": [
+                17690624,
+                68423680,
+                16465920,
+                114688,
+                0,
+                26013696,
+                0
+            ],
+            "memory_percent": 0.04205666539234029,
+            "name": "systemd-journald",
+            "memory_mb": 16.87109375
+        },
+        {
+            "pid": 131,
+            "cpu_percent": 0.0,
+            "memory_info": [
+                13926400,
+                386281472,
+                540672,
+                20480,
+                0,
+                59445248,
+                0
+            ],
+            "memory_percent": 0.03310781716461148,
+            "name": "snapfuse",
+            "memory_mb": 13.28125
+        },
+        {
+            "pid": 1,
+            "cpu_percent": 0.0,
+            "memory_info": [
+                13410304,
+                22249472,
+                9961472,
+                45056,
+                0,
+                2904064,
+                0
+            ],
+            "memory_percent": 0.03188088041086412,
+            "name": "systemd",
+            "memory_mb": 12.7890625
+        },
+        {
+            "pid": 169,
+            "cpu_percent": 0.0,
+            "memory_info": [
+                12132352,
+                21966848,
+                9887744,
+                360448,
+                0,
+                1839104,
+                0
+            ],
+            "memory_percent": 0.02884275130634683,
+            "name": "systemd-resolved",
+            "memory_mb": 11.5703125
+        }
+    ]
+}
