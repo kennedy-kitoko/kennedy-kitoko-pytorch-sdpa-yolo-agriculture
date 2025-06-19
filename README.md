@@ -1,4 +1,5 @@
 # 🚀 SDPA-YOLOv12: Revolutionary PyTorch SDPA Alternative to Flash Attention
+## Alternative PyTorch SDPA à Flash Attention dans YOLOv12 pour l'Agriculture Intelligente
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://python.org)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.3+-orange.svg)](https://pytorch.org)
@@ -94,7 +95,7 @@ def setup_ultra_environment():
 ### 1. Installation (30 seconds)
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/SDPA-YOLOv12.git
+git clone https://github.com/kennedy-kitoko/kennedy-kitoko-pytorch-sdpa-yolo-agriculture.git
 cd SDPA-YOLOv12
 
 # Install dependencies (works everywhere!)
