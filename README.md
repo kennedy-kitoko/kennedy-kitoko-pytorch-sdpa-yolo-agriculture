@@ -285,33 +285,64 @@ results = model.predict('field_image.jpg')
 
 ```
 SDPA-YOLO12-SmartFarm/
-├── README.md                       # This documentation
-└── SDPA-YOLO12-SmartFarm/         # Main project folder
-    ├── configs/                    # Adaptive configurations
-    │   ├── environment_sdpa.yml   # Optimized environment
-    │   └── yolo/                  # YOLO configurations
-    ├── data/                      # Datasets and annotations
-    │   ├── weeds_dataset.yaml     # Agricultural dataset config
-    │   └── sample_images/         # Sample images
-    ├── docs/                      # Scientific documentation
-    │   ├── flash_attention_issues.md # Flash Attention problems
-    │   ├── training_guide.md      # Complete training guide
-    │   └── benchmark_results/     # Performance comparisons
-    ├── experiments/               # Experimental results
-    │   └── sdpa_vs_flash_attention/ # Comparative analysis
-    ├── models/                    # Trained models
-    │   ├── yolo12n_sdpa_best.pt  # Best SDPA model (97.8% mAP@50)
-    │   └── yolo12s_sdpa_best.pt  # SDPA small version
-    ├── src/                       # Source code
-    │   ├── train_sdpa.py         # SDPA training script
-    │   ├── inference.py          # Inference script
-    │   ├── flash/                # Flash/SDPA implementations
+├── README.md
+└── SDPA-YOLO12-SmartFarm/
+    ├── configs/
+    │   ├── environment_sdpa.yml
+    │   ├── data/
+    │   ├── experiments/
+    │   └── yolo/
+    ├── data/
+    │   ├── weeds_dataset.yaml
+    │   ├── fixed_dataset.yaml
+    │   ├── annotations/
+    │   └── sample_images/
+    ├── docs/
+    │   ├── flash_attention_issues.md
+    │   ├── training_guide.md
+    │   ├── modifications.md
+    │   ├── pip_packages_full.txt
+    │   ├── conda_packages_full.txt
+    │   ├── current_requirements_backup.txt
+    │   ├── current_environment_backup.yml
+    │   ├── document_final.txt
+    │   ├── entrainement.txt
+    │   ├── erreur_solution.txt
+    │   ├── resultat_attendu.txt
+    │   ├── yolo_monitoring_systeme.txt
+    │   └── images/
+    ├── experiments/
+    │   ├── sdpa_vs_flash_attention/
+    │   ├── ablation_studies/
+    │   ├── benchmark_results/
+    │   └── system_report.json
+    ├── models/
+    │   ├── yolo12n_sdpa_best.pt
+    │   ├── yolo12s_sdpa_best.pt
+    │   └── yolo12n_flash.pt
+    ├── src/
+    │   ├── train_sdpa.py
+    │   ├── inference.py
+    │   ├── train_yolo.py
+    │   ├── yolo_monitoring_system.py
+    │   ├── flash/
     │   │   ├── final_sdpa_experiment.py
-    │   │   └── sdpa_only_experiment.py
-    │   └── utils/                # Utilities
-    │       └── system_monitor.py
-    └── tests/                    # Unit tests
-        └── test_sdpa_validation.py
+    │   │   ├── sdpa_only_experiment.py
+    │   │   ├── optimized_flash_experiment.py
+    │   │   └── pre_experiment_validation.py
+    │   ├── utils/
+    │   │   ├── system_monitor.py
+    │   │   └── debug_yolo_fix.py
+    │   └── models/
+    ├── tests/
+    │   ├── test_flash_validation.py
+    │   ├── test_flash_func.py
+    │   └── test_flash.py
+    ├── tools/
+    ├── results/
+    ├── notebooks/
+    ├── scripts/
+    └── .github/
 ```
 
 ---
