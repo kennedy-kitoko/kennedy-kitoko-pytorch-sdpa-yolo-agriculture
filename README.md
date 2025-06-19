@@ -25,7 +25,7 @@
 
 **Researcher:** Kennedy Kitoko Muyunga 🇨🇩  
 **Institution:** Beijing Institute of Technology (BIT University)  
-**Specialty:** Mechatronics Engineering & Artificial Intelligence  
+**Specialty:** Mechatronics Engineering   
 **Innovation:** PyTorch SDPA as Superior Alternative to Flash Attention  
 
 ---
