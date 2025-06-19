@@ -1,0 +1,27 @@
+{
+    "model": "yolo12n.pt",
+    "data": "weeds_dataset.yaml",
+    "epochs": 100,
+    "batch": 24,
+    "imgsz": 640,
+    "device": "cuda:0",
+    "workers": 12,
+    "optimizer": "AdamW",
+    "lr0": 0.001,
+    "amp": true,
+    "cache": "ram",
+    "project": "runs/kennedy_innovation",
+    "name": "weed_detection_sdpa_20250619_081152",
+    "verbose": true,
+    "patience": 30,
+    "save_period": 5,
+    "system_info": {
+        "ram_total": 39.174949645996094,
+        "ram_available": 37.92296600341797,
+        "gpu_name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+        "gpu_memory": 7.99560546875,
+        "gpu_free": 7.99560546875
+    },
+    "pytorch_version": "2.3.1",
+    "timestamp": "2025-06-19T08:11:52.801015"
+}
