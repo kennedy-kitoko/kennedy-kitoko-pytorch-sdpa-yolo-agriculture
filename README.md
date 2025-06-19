@@ -390,8 +390,8 @@ This innovation directly benefits the Ultralytics ecosystem by:
 ### Contribution Guidelines
 ```bash
 # Fork and contribute
-git fork https://github.com/kennedy-kitoko/kennedy-kitoko-pytorch-sdpa-yolo-agriculture
-git clone [your-fork-url]
+git fork https://github.com/kennedy-kitoko/kennedy-kitoko-pytorch-sdpa-yolo-agriculture.git
+git clone https://github.com/kennedy-kitoko/kennedy-kitoko-pytorch-sdpa-yolo-agriculture.git
 git checkout -b feature/your-enhancement
 
 # Test before contributing
