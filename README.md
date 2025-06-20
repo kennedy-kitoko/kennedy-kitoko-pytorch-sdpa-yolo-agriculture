@@ -206,11 +206,20 @@ results = model('image.jpg')
 ## 7. Code Structure
 
 ```
-├── train_yolo_launch_ready.py    # Main training script
-├── results.csv                   # Training metrics
-├── docs/                         # Detailed documentation
-├── examples/                     # Usage examples
-└── README.md                     # This file
+repository/
+├── README.md                          # Version scientifique principale
+├── docs/
+│   ├── detailed_methodology.md        # Méthodologie complète
+│   ├── performance_analysis.md        # Analyse performance
+│   ├── deployment_guide.md           # Guide déploiement
+│   └── comparison_study.md           # Étude comparative
+├── results/
+│   ├── training_metrics.csv          # Votre CSV existant
+│   └── system_specs.json            # Spécifications système
+├── examples/
+│   ├── basic_training.py            # Example simple
+│   └── inference_demo.py            # Démonstration
+└── train_yolo_launch_ready.py       # Script principal existant
 ```
 
 ## 8. Reproducibility
@@ -253,3 +262,6 @@ MIT License - see LICENSE file for details.
 ---
 
 *This work demonstrates that performance and simplicity can coexist in production AI systems, making advanced computer vision accessible for global agricultural applications.*
+
+
+
