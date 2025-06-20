@@ -10,8 +10,12 @@
 [![Innovation](https://img.shields.io/badge/Innovation-SDPA_Validated-red.svg)](docs/)
 [![Africa](https://img.shields.io/badge/Impact-Africa_Agriculture-darkgreen.svg)](docs/impact_societal.md)
 
-> **🌍 Innovation by Kennedy Kitoko 🇨🇩** - Congolese mecatronic Student  
-> *Democratizing Agricultural AI through Native PyTorch SDPA - Simplicity that Revolutionizes Performance*
+# YOLOv12 with PyTorch SDPA for Agricultural Object Detection
+
+A practical implementation of YOLOv12 using native PyTorch Scaled Dot-Product Attention 
+as an accessible alternative to Flash Attention for agricultural applications.
+
+**Key Results:** 97.68% mAP@50, 79.51% mAP@50-95 on weed detection dataset
 
 ---
 
@@ -87,8 +91,8 @@ def setup_ultra_environment():
 
 | Metric | **SDPA Innovation** | Flash Attention | Advantage |
 |--------|---------------------|-----------------|-----------|
-| **mAP@50** | **97.8%** ✅ | ~98.2% | -0.4% (negligible) |
-| **mAP@50-95** | **79.5%** ✅ | ~80.1% | -0.6% (negligible) |
+| **mAP@50** | **97.68%** ✅ | ~98.2% | -0.4% (negligible) |
+| **mAP@50-95** | **79.51%** ✅ | ~80.1% | -0.6% (negligible) |
 | **Setup Time** | **0 min** 🚀 | 45-60 min | **∞× faster** |
 | **Success Rate** | **100%** 🎯 | 75% | **+33%** |
 | **FPS** | **131** ⚡ | 123 | **+6.5%** |
@@ -140,7 +144,7 @@ Epoch |  mAP@50  | mAP@50-95 | Loss  | Status
 10    |  89.7%   |   57.9%   | 1.26  | 🟢 Rapid learning
 30    |  96.3%   |   73.7%   | 1.03  | 🔵 Excellence
 82    |  98.0%   |   79.1%   | 0.85  | 🏆 PEAK
-100   |  97.8%   |   79.5%   | 0.75  | ⭐ FINAL
+100   |  97.68%   |   79.5%   | 0.75  | ⭐ FINAL
 ```
 ![Labels Correlogram](https://github.com/kennedy-kitoko/kennedy-kitoko-pytorch-sdpa-yolo-agriculture/blob/main/Screenshot%202025-06-20%20010535.png)
 
@@ -406,7 +410,7 @@ This research presents a major innovation in optimizing YOLOv12 models for agric
 ### 🎯 Key Contributions
 
 1. **Technical Innovation**: First native SDPA implementation for YOLOv12
-2. **Equivalent Performance**: 97.8% mAP@50 vs ~98.2% theoretical Flash Attention
+2. **Equivalent Performance**: 97.68% mAP@50 vs ~98.2% theoretical Flash Attention
 3. **Deployment Simplicity**: Zero configuration vs 30-60 minutes traditional setup
 4. **Universality**: 100% hardware compatibility vs 70% Flash Attention
 
