@@ -1,5 +1,5 @@
 # 🚀 SDPA-YOLOv12: Revolutionary PyTorch SDPA Alternative to Flash Attention
-## Alternative PyTorch SDPA à Flash Attention dans YOLOv12 pour l'Agriculture Intelligente
+## Next-Gen YOLOv12: Fast and Accurate Object Detection using SDPA and FlashAttention
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://python.org)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.3+-orange.svg)](https://pytorch.org)
