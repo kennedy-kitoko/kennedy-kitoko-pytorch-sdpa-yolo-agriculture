@@ -24,7 +24,11 @@ This project presents a cutting-edge implementation of YOLOv12 enhanced with Sca
 
 ![Labels Correlogram](https://github.com/kennedy-kitoko/kennedy-kitoko-pytorch-sdpa-yolo-agriculture/blob/main/site.png)
 
+# 🎯 befor detection 
+
 ![Labels Correlogram](https://github.com/kennedy-kitoko/kennedy-kitoko-pytorch-sdpa-yolo-agriculture/blob/main/image.png)
+
+# 🎯 after detection
 
 ![Labels Correlogram](https://github.com/kennedy-kitoko/kennedy-kitoko-pytorch-sdpa-yolo-agriculture/blob/main/Screenshot%202025-06-20%20025251.png)
 
