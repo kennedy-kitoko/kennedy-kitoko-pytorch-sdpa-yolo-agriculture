@@ -17,7 +17,9 @@
 
 ## 🎯 Executive Summary
 
-This research presents a **groundbreaking innovation** in YOLOv12 optimization: replacing Flash Attention with **PyTorch SDPA (Scaled Dot-Product Attention)** to achieve equivalent performance with **infinite simplicity**. Our empirical validation demonstrates **97.8% mAP@50** while eliminating all deployment complexities that have plagued Flash Attention implementations.
+This project presents a cutting-edge implementation of YOLOv12 enhanced with Scaled Dot-Product Attention (SDPA) accelerated by FlashAttention, developed in PyTorch. It delivers ultra-fast and memory-efficient real-time object detection, combining the proven accuracy of YOLOv12 with advanced attention mechanisms to improve detection precision and speed. Designed for applications requiring high throughput and low latency, such as smart agriculture, robotics, and surveillance, this repository provides easy-to-use training and inference pipelines optimized for modern GPUs. By leveraging PyTorch’s native SDPA and FlashAttention techniques, the model achieves state-of-the-art performance while maintaining compatibility across diverse hardware platforms.
+
+
 
 
 ![Labels Correlogram](https://github.com/kennedy-kitoko/kennedy-kitoko-pytorch-sdpa-yolo-agriculture/blob/main/site.png)
