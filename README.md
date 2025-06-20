@@ -10,7 +10,7 @@
 [![Innovation](https://img.shields.io/badge/Innovation-SDPA_Validated-red.svg)](docs/)
 [![Africa](https://img.shields.io/badge/Impact-Africa_Agriculture-darkgreen.svg)](docs/impact_societal.md)
 
-> **🌍 Innovation by Kennedy Kitoko 🇨🇩** - Congolese AI Student  
+> **🌍 Innovation by Kennedy Kitoko 🇨🇩** - Congolese mecatronic Student  
 > *Democratizing Agricultural AI through Native PyTorch SDPA - Simplicity that Revolutionizes Performance*
 
 ---
