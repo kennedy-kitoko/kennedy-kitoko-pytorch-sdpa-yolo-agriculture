@@ -2449,11 +2449,10 @@ but in universal accessibility coupled with excellence."
 
 ✅ Technical Innovation Validated: SDPA = viable alternative to Flash Attention
 
-✅ Excellent Performance: 97.8% mAP@50, 131 FPS real-time
+✅ Excellent Performance: 97.67% mAP@50, 131 FPS real-time
 
 ✅ Revolutionary Simplicity: Zero setup vs. traditional 45–60 minutes
 
-✅ Demonstrated Societal Impact: +394% potential adoption in Africa
 
 ✅ Outstanding Reproducibility: Complete scientific documentation
 
@@ -2464,6 +2463,6 @@ This research establishes SDPA as a new standard for production-ready AI, priori
 
 The SDPA innovation for YOLOv12 doesn’t just optimize a model — it redefines AI accessibility for global agriculture. 🌍✨
 #
-# 🏆 Validated Innovation | 🌍 Global Impact | 🇨🇩 Made in Congo
+# 🏆 Validated Innovation | 🌍 Global Impact |
 
 Kennedy Kitoko muyunga  – Pioneer of Democratic Agricultural AI
