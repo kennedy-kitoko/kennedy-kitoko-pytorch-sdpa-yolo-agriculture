@@ -1,4 +1,4 @@
-# 🚀 SDPA-YOLOv12: Revolutionary PyTorch SDPA Alternative to Flash Attention
+#  SDPA-YOLOv12: Revolutionary PyTorch SDPA Alternative to Flash Attention
 ## Next-Gen YOLOv12: Fast and Accurate Object Detection using SDPA and FlashAttention
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://python.org)
@@ -19,7 +19,7 @@ as an accessible alternative to Flash Attention for agricultural applications.
 
 ---
 
-## 🎯 Executive Summary
+##  Executive Summary
 
 This project presents a cutting-edge implementation of YOLOv12 enhanced with Scaled Dot-Product Attention (SDPA) accelerated by FlashAttention, developed in PyTorch. It delivers ultra-fast and memory-efficient real-time object detection, combining the proven accuracy of YOLOv12 with advanced attention mechanisms to improve detection precision and speed. Designed for applications requiring high throughput and low latency, such as smart agriculture, robotics, and surveillance, this repository provides easy-to-use training and inference pipelines optimized for modern GPUs. By leveraging PyTorch’s native SDPA and FlashAttention techniques, the model achieves state-of-the-art performance while maintaining compatibility across diverse hardware platforms.
 
@@ -28,16 +28,16 @@ This project presents a cutting-edge implementation of YOLOv12 enhanced with Sca
 
 ![Labels Correlogram](https://github.com/kennedy-kitoko/kennedy-kitoko-pytorch-sdpa-yolo-agriculture/blob/main/site.png)
 
-# 🎯 before detection 
+#  before detection 
 
 ![Labels Correlogram](https://github.com/kennedy-kitoko/kennedy-kitoko-pytorch-sdpa-yolo-agriculture/blob/main/image.png)
 
-# 🎯 after detection
+#  after detection
 
 ![Labels Correlogram](https://github.com/kennedy-kitoko/kennedy-kitoko-pytorch-sdpa-yolo-agriculture/blob/main/Screenshot%202025-06-20%20025251.png)
 
 
-### 🏆 Key Achievements
+###  Key Achievements
 - **Performance**: **97.8% mAP@50** (vs ~98.2% Flash Attention theoretical)
 - **Setup Time**: **0 minutes** (vs 45-60 minutes Flash Attention)
 - **Success Rate**: **100%** (vs 75% Flash Attention)
@@ -140,11 +140,11 @@ pythontrain_yolo_launch_ready.py
 ```
 Epoch |  mAP@50  | mAP@50-95 | Loss  | Status
 ------|----------|-----------|-------|------------------
-1     |  56.5%   |   24.3%   | 1.95  | 🟡 Starting
-10    |  89.7%   |   57.9%   | 1.26  | 🟢 Rapid learning
-30    |  96.3%   |   73.7%   | 1.03  | 🔵 Excellence
-82    |  98.0%   |   79.1%   | 0.85  | 🏆 PEAK
-100   |  97.68%   |   79.5%   | 0.75  | ⭐ FINAL
+1     |  56.5%   |   24.3%   | 1.95  |  Starting
+10    |  89.7%   |   57.9%   | 1.26  |  Rapid learning
+30    |  96.3%   |   73.7%   | 1.03  |  Excellence
+82    |  98.0%   |   79.1%   | 0.85  |  PEAK
+100   |  97.68%   |   79.5%   | 0.75  |  FINAL
 ```
 ![Labels Correlogram](https://github.com/kennedy-kitoko/kennedy-kitoko-pytorch-sdpa-yolo-agriculture/blob/main/Screenshot%202025-06-20%20010535.png)
 
@@ -232,7 +232,7 @@ python src/train_sdpa.py --monitor
 
 ---
 
-## 🌍 Global Impact Analysis
+##  Global Impact Analysis
 
 ### Democratization Metrics
 ```
@@ -290,9 +290,9 @@ We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 ### Framework Comparison
 | Framework | Complexity | Setup Time | Success Rate | Performance |
 |-----------|------------|------------|--------------|-------------|
-| SDPA (Ours) | ⭐ Simple | 0 min | 100% | 97.8% |
+| SDPA (Ours) |  Simple | 0 min | 100% | 97.8% |
 | Flash Attention | ⚠️ Complex | 45-60 min | 75% | ~98.2% |
-| Standard Attention | ⭐ Simple | 0 min | 100% | 94.5% |
+| Standard Attention |  Simple | 0 min | 100% | 94.5% |
 
 ---
 
@@ -377,7 +377,7 @@ If you use this work in your research, please cite:
 
 <div align="center">
 
-**⭐ Star this repo if SDPA helps your research! ⭐**
+** Star this repo if SDPA helps your research! **
 
 **🚀 Simplicity + Performance = Revolution 🚀**
 
@@ -427,7 +427,7 @@ Precision agriculture requires high-performance object detection systems that ar
 - **High failure rate**: 20-30% deployment failures
 - **Technical barrier**: CUDA expertise required
 
-### 🎯 Research Objectives
+###  Research Objectives
 
 1. Develop a viable alternative to Flash Attention for YOLOv12
 2. Maintain performance while simplifying deployment
@@ -611,7 +611,7 @@ def setup_sdpa_attention():
 
 ## Performance Benchmark
 
-### 🎯 Computational Metrics
+###  Computational Metrics
 
 ```
 Operation: Attention(Q,K,V) - [Batch=8, Heads=8, Seq=256, Dim=64]
@@ -875,7 +875,7 @@ import gc
 from ultralytics import YOLO
 from datetime import datetime
 
-# 🚀 Ultra-Premium Configuration for RTX 4060+ READY TO LAUNCH
+#  Ultra-Premium Configuration for RTX 4060+ READY TO LAUNCH
 # Developed by Kennedy Kitoko (🇨🇩) for SmartFarm
 # Final version: Auto-detection + Complete fallback
 
@@ -2001,13 +2001,7 @@ SDPA Innovation:
 ### Economic Impact
 
 ```
-Metric               | Flash Attention | SDPA Innovation | Savings
----------------------|-----------------|-----------------|----------
-Team setup cost     | $2,400          | $0              | $2,400
-Development time     | 11.2 hours      | 0 hours         | 11.2h
-Maintenance cost/year| $1,200          | $0              | $1,200
-Project risk         | 24% failure     | 0% failure      | -24% risk
-3-year ROI           | 127%            | 1,847%          | +1,720% ✨
+"Simplified deployment reduces setup complexity"
 ```
 
 ## 🌍 Global Deployment Simulation
