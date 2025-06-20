@@ -115,10 +115,10 @@ python train_yolo_launch_ready.py
 ### 3. Run Inference
 ```bash
 # Single image detection
-python src/inference.py --image path/to/image.jpg
+python train_yolo_launch_ready.py 
 
 # Batch processing
-python src/inference.py --input_dir images/ --output_dir results/
+pythontrain_yolo_launch_ready.py 
 
 # Real-time video
 
